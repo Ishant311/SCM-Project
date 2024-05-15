@@ -1,0 +1,204 @@
+button{
+    color:red;
+    background-color:yellow;
+    height:50px;
+    width:50px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    margin-right: 9px;
+    border-radius: 3px;
+    border:2px solid rgb(173, 173, 31);
+    transition: all 0.15s;
+}
+button:hover{
+    box-shadow: 5px 5px 13px blueviolet;
+}
+button:active{
+    background-color: rgb(252, 252, 76);
+}
+sup{
+    vertical-align: 15px;
+}
+#tab{
+    height: 50px;
+    width:78px
+}
+#capslock{
+    height: 50px;
+    width: 92px;
+}
+#spacebar-button{
+    height: 50px;
+    width:314px;
+    color:yellow
+}
+#shift{
+    height: 50px;
+    width:108px;
+}
+#windows{
+    height: 20px;
+    width: 20px;
+    mix-blend-mode: multiply;
+}
+#uparrow{
+    height:25px;
+    width:50px;
+}
+#downarrow{
+    height: 25px;
+    width: 50px;
+}
+.backspace{
+    color:red;
+    background-color:yellow;
+    height:50px;
+    width:90px;
+    font-size: small
+}
+.textarea-style{
+    background-color:rgb(192, 188, 188);
+    color:white;
+    border: none;
+    height:140px;
+    width:900px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size:22px;
+    border-radius: 10px;
+}
+.enter{
+    height: 50px;
+    width: 95px
+}
+.shift1{
+    height: 50px;
+    width: 138px;
+}
+.div1{
+    margin:10px 530px}
+#sign{
+    height:50px;
+    width:38px
+}
+body{
+    background-color:rgb(72, 0, 139);
+    padding-top: 100px;
+}
+.textarea{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-shrink: 0;
+}
+.keyboard{
+    background-color: rgb(253, 253, 117);
+    height: 300px;
+    border-radius:5px;
+    width:870px;
+    margin-left: 60px;
+    padding-top: 10px;
+    transition: all 0.15s;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content:center;
+    border: 2px solid rgb(211, 211, 40);
+}
+.numbers,.alphabets,.alphabets1,.alphabets2,.spacebar{
+    display: flex;
+    flex:1;
+    margin-bottom: 10px;
+    flex-direction: row;
+    row-gap: 12px;
+    justify-content: center;
+}
+.arrow{
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.header{
+    margin-left: -9px;
+    margin-top: -8px;
+    background-color:blueviolet; 
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height:70px;
+    border-radius: 5px;
+    margin-right: -8px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+    height:90px;
+    z-index: 100;
+}
+.left-text{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.main-container{
+    height:1000px;
+    margin-left: -8px;
+    margin-top: -5px;
+}
+.right-section{
+    display:flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.qwerty{
+    background-color:blueviolet;
+    width: 110px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px ;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.qwerty:active{
+    background-color: blueviolet;
+    color: white;
+    border:none;
+}
+.layout{
+    background-color: blueviolet;
+    color: white;
+    margin-right: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layout:active{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+}
+.hamburger{
+    font-size: 35px;
+    margin-right:20px;
+    align-items: center;
+    margin-left: 30px;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 40px;
+    width:40px
+}

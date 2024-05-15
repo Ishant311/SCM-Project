@@ -1,0 +1,291 @@
+button{
+    color:black;
+    background-color:rgb(78, 248, 78);
+    height:50px;
+    width:50px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:15px;
+    margin-right: 9px;
+    border-radius: 3px;
+    cursor: pointer;
+    border:2px solid rgb(57, 226, 57);
+    transition: all 0.15s;
+}
+button:hover{
+    box-shadow: 5px 5px 13px black;
+}
+button:active{
+    background-color: rgb(224, 224, 224);
+}
+.left{
+    position: relative;
+    top: 10px;
+    left:-12px;
+}
+.left_french{
+    position: relative;
+    top:18px;
+    left:-20px;
+}
+.right{
+    position: relative;
+    top:10px;
+    left:2px
+}
+.right_sp{
+    size:5px;
+    position: relative;
+    top:1.6px;
+    left:10px
+}
+.top{
+    position: relative;
+    top: -12px;
+    left:-4px;
+}
+.top_zero{
+    position: relative;
+    top:-4px;
+    left:-8px;
+}
+sup{
+    vertical-align: 15px;
+}
+#tab{
+    height: 50px;
+    width:70px
+}
+#capslock{
+    height: 50px;
+    width: 92px;
+}
+#spacebar-button{
+    height: 50px;
+    width:444px;
+}
+#shift{
+    height: 50px;
+    width:50px;
+}
+#windows{
+    height: 20px;
+    width: 20px;
+    mix-blend-mode: multiply;
+}
+#uparrow{
+    height:25px;
+    width:50px;
+}
+#downarrow{
+    height: 25px;
+    width: 50px;
+}
+.backspace{
+    height:50px;
+    width:90px;
+    font-size: small
+}
+.dropbtn {
+    background-color:rgb(78, 248, 78);
+    margin-left: -50px;
+    color: black;
+    padding: 16px;
+    width: 160px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: rgb(78, 248, 78);}
+.textarea-style{
+    background-color:rgb(163, 255, 163);
+    color:black;
+    border: none;
+    height:140px;
+    width:900px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size:22px;
+    border-radius: 10px;
+}
+.enter{
+    height: 50px;
+    width: 70px
+}
+.enter:hover{
+    box-shadow: none;
+}
+.enter:active{
+    background-color: rgb(78, 248, 78);
+}
+.enter_w{
+    margin-top: -11.6px;
+    border-top: 0px;
+    border-radius: 0px;
+    width:48px;
+    height: 61.5px;
+}
+.enter_w:hover{
+    box-shadow: none;
+}
+.enter_w:active{
+    background-color: rgb(78, 248, 78) ;
+}
+.shift1{
+    height: 50px;
+    width: 148px;
+}
+.div1{
+    margin:10px 530px}
+#sign{
+    height:50px;
+    width:38px
+}
+body{
+    background-color: #26dd62;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='52' height='52' viewBox='0 0 52 52'%3E%3Cpath fill='%234400b1' fill-opacity='0.4' d='M0 17.83V0h17.83a3 3 0 0 1-5.66 2H5.9A5 5 0 0 1 2 5.9v6.27a3 3 0 0 1-2 5.66zm0 18.34a3 3 0 0 1 2 5.66v6.27A5 5 0 0 1 5.9 52h6.27a3 3 0 0 1 5.66 0H0V36.17zM36.17 52a3 3 0 0 1 5.66 0h6.27a5 5 0 0 1 3.9-3.9v-6.27a3 3 0 0 1 0-5.66V52H36.17zM0 31.93v-9.78a5 5 0 0 1 3.8.72l4.43-4.43a3 3 0 1 1 1.42 1.41L5.2 24.28a5 5 0 0 1 0 5.52l4.44 4.43a3 3 0 1 1-1.42 1.42L3.8 31.2a5 5 0 0 1-3.8.72zm52-14.1a3 3 0 0 1 0-5.66V5.9A5 5 0 0 1 48.1 2h-6.27a3 3 0 0 1-5.66-2H52v17.83zm0 14.1a4.97 4.97 0 0 1-1.72-.72l-4.43 4.44a3 3 0 1 1-1.41-1.42l4.43-4.43a5 5 0 0 1 0-5.52l-4.43-4.43a3 3 0 1 1 1.41-1.41l4.43 4.43c.53-.35 1.12-.6 1.72-.72v9.78zM22.15 0h9.78a5 5 0 0 1-.72 3.8l4.44 4.43a3 3 0 1 1-1.42 1.42L29.8 5.2a5 5 0 0 1-5.52 0l-4.43 4.44a3 3 0 1 1-1.41-1.42l4.43-4.43a5 5 0 0 1-.72-3.8zm0 52c.13-.6.37-1.19.72-1.72l-4.43-4.43a3 3 0 1 1 1.41-1.41l4.43 4.43a5 5 0 0 1 5.52 0l4.43-4.43a3 3 0 1 1 1.42 1.41l-4.44 4.43c.36.53.6 1.12.72 1.72h-9.78zm9.75-24a5 5 0 0 1-3.9 3.9v6.27a3 3 0 1 1-2 0V31.9a5 5 0 0 1-3.9-3.9h-6.27a3 3 0 1 1 0-2h6.27a5 5 0 0 1 3.9-3.9v-6.27a3 3 0 1 1 2 0v6.27a5 5 0 0 1 3.9 3.9h6.27a3 3 0 1 1 0 2H31.9z'%3E%3C/path%3E%3C/svg%3E");
+    padding: 100px;
+}
+.textarea{
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-shrink: 0;
+}
+.keyboard{
+    background-color: rgb(160, 229, 160);
+    height: 300px;
+    border-radius:5px;
+    width:870px;
+    margin-left: 60px;
+    padding-top: 10px;
+    transition: all 0.15s;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: column;
+    justify-content:center;
+    border: 2px solid rgb(60, 194, 60);
+}
+.numbers,.alphabets,.alphabets1,.alphabets2,.spacebar{
+    display: flex;
+    flex:1;
+    margin-bottom: 10px;
+    flex-direction: row;
+    row-gap: 12px;
+    justify-content: center;
+}
+.arrow{
+    display:flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.header{
+    margin-left: -9px;
+    margin-top: -8px;
+    background-color:rgb(78, 248, 78); 
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    height:70px;
+    border-radius: 5px;
+    margin-right: -8px;
+    position: fixed;
+    top:0px;
+    left:0px;
+    right: 0px;
+    height:90px;
+    z-index: 100;
+}
+.left-text{
+    color: black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+}
+.main-container{
+    height:100px;
+    margin-left: -8px;
+    margin-top: -5px;
+}
+.right-section{
+    display:flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.qwerty{
+    background-color:rgb(78, 248, 78);
+    width: 110px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px ;
+    color:black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.qwerty:active,.qwerty:hover{
+    background-color:rgb(78, 248, 78) ;
+    color: black;
+    box-shadow: none;
+    border:none;
+}
+.layout{
+    background-color: rgb(78, 248, 78);
+    color: black;
+    margin-right: 50px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.layout:active,.layout:hover{
+    background-color: rgb(78, 248, 78);
+    color: black;
+    box-shadow: none;
+    border: none;
+}
+.hamburger{
+    font-size: 35px;
+    margin-right:20px;
+    align-items: center;
+    margin-left: 30px;
+    border-radius: 50%;
+    height: 40px;
+    width:40px
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>V KEY</title>
+    <link rel="stylesheet" href="myproject3.css">
+    <script src="azerty.js"></script>
+    <link rel="icon" href="projectlogo.jpg" type="image/png" class="title-image">
+    </head>
+    <body>
+        <div class="header">
+            <div class="left-text"><span ><img class="hamburger" src="projectlogo.jpg"> </span>
+                Virtual Keyboard &#9000;</div>
+            <div class="right-section">
+                <a href="azertystyle3.html"> <button class="qwerty">QWERTY</button></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Change Style</button>
+                    <div class="dropdown-content">
+                      <a href="myproject.html">Default theme</a>
+                      <a href="myproject2.html">Knight theme</a>
+                      <a href="myproject4.html">B&W Theme</a>
+                    </div>
+                  </div>>
+             </div>
+        </div>
+        <div class="main-container">
+            <div class="textarea">
+                <textarea name="text" cols="20" rows="20" class="textarea-style"></textarea>
+            </div>
+        <div class="keyboard">
+            <div class="numbers">
+                <button id="sign" onclick="
+                    type1(upperSign,'~',uppersign)"><sup>~</sup>`</button>
+                <button onclick="
+                type1('1','!','1')"><sup>!</sup> 1 </button>
+                <button onclick="
+                type1(2,'@',2)"><sup> @ </sup> 2 </button>
+                <button onclick="
+                type1(3,'#',3)"><sup>#</sup> 3 </button>
+                <button onclick="
+                type1(4,'$',4)"><sup>$</sup> 4 </button>
+                <button onclick="
+                type1(5,'%',5)"><sup>%</sup> 5</button>
+                <button onclick="
+                type1(6,'^',6)"><sup>^</sup> 6</button>
+                <button onclick="
+                type1(7,'&',7)"><sup>&</sup> 7</button>
+                <button onclick="
+                type1(8,'*',8)"><sup>*</sup> 8</button>
+                <button onclick="
+                type1(9,bracket,9)"><sup>(</sup> 9</button>
+                <button onclick="
+                type1(0,CloseBracket,0)"><sup>)</sup> 0 </button>
+                <button onclick="
+                type1('-','_','-')"><sup>_</sup> -</button>
+                <button onclick="
+                type1('=','+','=')"><sup>+</sup> =</button>
+                <button onclick="
+                let backspace = document.querySelector('.textarea-style').value
+                    L = []
+                    for (let i = 0; i<backspace.length;i++){
+                        L.push(backspace[i])
+                    }
+                    L.pop()
+                    let s = ''
+                    for (i = 0; i<L.length;i++){
+                        s += L[i]
+                    }
+                    document.querySelector('.textarea-style').innerHTML = s
+                    
+                " class="backspace"> &#8592;backspace</align></button>
+            </div>
+            <div class="alphabets">
+                <button onclick="
+                    type1('    ')" id="tab">tab&#8633;</button>
+                <button onclick="
+                type1('q','Q','Q')"> Q </button>
+                <button onclick="
+                type1('w','W','W')"> W </button>
+                <button onclick="
+                type1('e','E','E')"> E </button>
+                <button onclick="
+                type1('r','R','R')"> R </button>
+                <button onclick="
+                type1('t','T','T')"> T </button>
+                <button onclick="
+                type1('y','Y','Y')"> Y </button>
+                <button onclick="
+                type1('u','U','U')"> U </button>
+                <button onclick="
+                type1('i','I','I')"> I </button>
+                <button onclick="
+                type1('o','O','O')"> O </button>
+                <button onclick="
+                type1('p','P','P')"> P </button>
+                <button onclick="
+                type1('[','{','[')"><sup>{</sup> [</button>
+                <button onclick="
+                    type1(`]`,'}',']')"><sup>}</sup> ]</button>
+                <button onclick="
+                type1(slash,'|',slash)"><sup>|</sup> \</button>
+            </div>
+            <div class="alphabets1">
+                <button onclick="
+                    
+                let caps = document.querySelector('.js-capslock').innerHTML
+                if ( caps === 'caps lock'){
+                    count = 2
+                    document.querySelector('.js-capslock').innerHTML ='caps lock On'
+                }
+                else if( caps ='caps lock On'){
+                    count = 0
+                    document.querySelector('.js-capslock').innerHTML = 'caps lock'
+                }
+                " class="js-capslock" id="capslock"> caps lock</button>
+                <button onclick="
+                type1('a','A','A')"> A</button>
+                <button onclick="
+                type1('s','S','S')"> S</button>
+                <button onclick="
+                type1('d','D','D')"> D</button>
+                <button onclick="
+                type1('f','F','F')"> F</button>
+                <button onclick="
+                type1('g','G','G')"> G</button>
+                <button onclick="
+                type1('h','H','H')"> H</button>
+                <button onclick="
+                type1('j','J','J')"> J</button>
+                <button onclick="
+                type1('k','K','K')"> K</button>
+                <button onclick="
+                type1('l','L','L')"> L</button>
+                <button onclick="
+                type1(';',':',';')"><sup>:</sup> ;</button>
+                <button onclick="
+                type1(`'`,dot)"><sup>"</sup> '</button>
+                <button onclick="
+                type1(`
+`)" class="enter"> &#8617;     enter</button>
+            </div>
+            <div class="alphabets2">
+                <button onclick="
+                count = 1" id="shift"> shift</button>
+                <button onclick="
+                type1('z','Z','Z')"> Z</button>
+                <button onclick="
+                type1('x','X','X')"> X</button>
+                <button onclick="
+                type1('c','C','C')"> C</button>
+                <button onclick="
+                type1('v','V','V')"> V</button>
+                <button onclick="
+                type1('b','B','B')"> B</button>
+                <button onclick="
+                type1('n','N','N')"> N</button>
+                <button onclick="
+                type1('m','M','M')"> M</button>
+                <button onclick="
+                type1(',','<',',')"><sup><</sup> ,</button>
+                <button onclick="
+                type1('.','>','.')"><sup>></sup> .</button>
+                <button onclick="
+                type1('/','?','/')"><sup>? </sup> /</button>
+                <button onclick="
+                count = 1" class="shift1"><sup>pause</sup> &#8593 shift</button> 
+            </div>
+            <div class="spacebar">
+            <button onclick="
+                alert(`doesn't work right now`)">  ctrl</button>
+            <button onclick="
+            alert(`Doesn't work right now`)">  fn</button>
+            <button onclick="
+            alert(`Doesn't work right now`)"> <img src="window.png" id="windows"></button>
+            <button onclick="
+            alert(`Doesn't work right now`)"> alt</button>
+            <button onclick="
+            type1(' ')" id="spacebar-button"> </button>
+            <button onclick="
+            alert(`Doesn't work right now`)"> alt</button>
+            <button onclick="
+            alert(`Doesn't work right now`)"> ctrl</button>
+            <button onclick="
+            alert(`Doesn't work right now`)"> &#8592</button>
+                <div >
+                    <div class="arrow">
+                        <button onclick="
+                            alert(`Doesn't work right now`)" id="uparrow">&uarr;</button>
+                        <button onclick="
+                        alert(`Doesn't work right now`)" id="downarrow">&darr;</button>
+                    </div>
+                </div>
+            <button onclick="
+            alert(`Doesn't work right now`)"> &rarr;</button>
+            </div>
+        </div>
+        </div>
+        <script>
+            const audio = new Audio("https://www.fesliyanstudios.com/play-mp3/387");
+            const buttons = document.querySelectorAll("button");
+    
+            buttons.forEach(button => {
+            button.addEventListener("click", () => {
+                audio.play();
+            });
+            });
+        </script>
+    </body>
+</html>
